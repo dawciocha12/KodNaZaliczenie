@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+.wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 50px auto;
+  color: #2e2e2e;
+  text-align: center;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  padding: 6px 10px;
+  border: 1px solid rgb(221, 164, 164);
+  margin: 12px auto;
+}
+li h4 {
+  color: #2e2e2e;
+  margin: 0;
+  text-transform: capitalize;
+}
+li p {
+  color: #333;
+  margin: 8px 0 0;
+}
+footer {
+  background: #fff;
+  padding: 60px;
+  margin-top: 60px;
+}
+form {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #333;
+  margin: 16px 0 6px;
+}
+input,
+select {
+  padding: 6px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+}
+.field {
+  display: inline-block;
+  margin: 0 10px;
+}
+button {
+  color: white;
+  border: 0;
+  background: #2e2e2e;
+  padding: 8px;
+  min-width: 90px;
+  border-radius: 5px;
+}
+button[disabled]
+{
+ background: grey;
+}
+footer a {
+  text-align: center;
+  display: block;
+  color: rgb(37, 37, 37);
+  margin-top: 40px;
+  font-size: 1em;
+}
+
+buttonL:disabled {
+  background-color: beige;
+}
